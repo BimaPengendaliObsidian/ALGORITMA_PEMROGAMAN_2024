@@ -1,0 +1,14 @@
+# Mulai
+
+# Masukkan harga total belanjaan
+total_belanjaan = float(input("Masukkan harga total belanjaan: "))
+
+# Memeriksa apakah total belanjaan mencapai 150.000
+if total_belanjaan >= 150000:
+    diskon = total_belanjaan * 0.15  # Menghitung diskon 15%
+    total_setelah_diskon = total_belanjaan - diskon  # Menghitung total setelah diskon
+    print("Anda mendapatkan diskon 15%! Total setelah diskon:", total_setelah_diskon)
+else:
+    print("Tidak ada diskon yang diterapkan.")
+ 
+# Selesai
