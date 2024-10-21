@@ -11,4 +11,4 @@ if total_belanjaan >= 150000:
 else:
     print("Tidak ada diskon yang diterapkan.")
  
-# Selesai
+# Selesai 
